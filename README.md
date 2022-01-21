@@ -1,5 +1,6 @@
-# Shopee Scrapper
-A web scrapper in python that extract sales, price, avaliable stock, location and more of a given seller in Brazil.
+# Shopee Scraper
+A web 
+pper in python that extract sales, price, avaliable stock, location and more of a given seller in Brazil.
 
 The project was created in python 3 and requires only 3 libraries that may need be installed (in case you don't have any of them).
 
@@ -21,9 +22,9 @@ https://shopee.com.br/Camisetas-Bandas-Rock-RHCP-Red-Hot-Chili-Peppers-100-Algod
 - The %s- right before the file name prints the date when the csv was generated. It's recommended to keep it that way, in order to track down your files.
 
 3. Using the terminal, go to the script's folder and run:
-- python3 shopee-scrapper.py
+- python3 shopee-scraper.py
 - Type in the seller's id you just got from the product link.
-- The script will scrappe every single product published and the scrapper will take 1 sec. per ad. So it may take some time depending on the number of products.
+- The script will scrape every single product published and the scraper will take 1 sec. per ad. So it may take some time depending on the number of products.
 
 # Why I created this project and who I am?
 - I'm a Computer Engineering and Mathematics major in Brazil. I already got a bachelors degree in Marketing and I'm currently looking for a Data Engineer and Data Scientist position. 
