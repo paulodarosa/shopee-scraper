@@ -1,6 +1,5 @@
 # Shopee Scraper
-A web 
-pper in python that extract sales, price, avaliable stock, location and more of a given seller in Brazil.
+A web scraper in python that extract sales, price, avaliable stock, location and more of a given seller in Brazil.
 
 The project was created in python 3 and requires only 3 libraries that may need be installed (in case you don't have any of them).
 
