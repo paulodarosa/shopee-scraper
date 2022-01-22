@@ -8,6 +8,8 @@ They are: requests, date and time. Date and Time are default libraries for Linux
 You can easily install requests using the following command:
 $ pip install requests
 
+The script runs based on Shopee's public API. Shopee generates a dynamic page that shows products and its information calling a json file. Since it's an API and public, it's easier to just call the json file and extract the data instead of selecing divs, classes and scrolling through the results and using Selenium to simulate a web browser.
+
 # How to use it
 1. The first thing you have to do is to find the seller's id. It's present in the product link.
 
