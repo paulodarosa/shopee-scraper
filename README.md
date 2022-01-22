@@ -1,14 +1,14 @@
 # Shopee Scraper
 A web scraper in python that extract sales, price, avaliable stock, location and more of a given seller in Brazil.
 
-The project was created in python 3 and requires only 3 libraries that may need be installed (in case you don't have any of them).
+The project was created in python 3 and requires only 3 libraries that may need to be installed (in case you don't have any of them).
 
 They are: requests, date and time. Date and Time are default libraries for Linux and Mac users, but if you're running Windows, make sure to install them using pip.
 
 You can easily install requests using the following command:
 $ pip install requests
 
-The script runs based on Shopee's public API. Shopee generates a dynamic page that shows products and its information calling a json file. Since it's an API and public, it's easier to just call the json file and extract the data instead of selecing divs, classes and scrolling through the results and using Selenium to simulate a web browser.
+The script runs based on Shopee's public API. Shopee generates a dynamic page that shows products and its information calling a json file. Since it's an API and it's public, it's easier to just call the json file and extract the data instead of selecting divs, classes and scrolling through the results and using Selenium to simulate a web browser.
 
 # How to use it
 1. The first thing you have to do is to find the seller's id. It's present in the product link.
@@ -25,7 +25,7 @@ https://shopee.com.br/Camisetas-Bandas-Rock-RHCP-Red-Hot-Chili-Peppers-100-Algod
 3. Using the terminal, go to the script's folder and run:
 - python3 shopee-scraper.py
 - Type in the seller's id you just got from the product link.
-- The script will scrape every single product published and the scraper will take 1 sec. per ad. So it may take some time depending on the number of products.
+- The script will scrape 999 products published and the scraper will take 1 sec. per ad. So it may take some time depending on the number of products.
 
 # Why I created this project and who I am?
 - I'm a Computer Engineering and Mathematics major in Brazil. I already got a bachelors degree in Marketing and I'm looking for a Data Engineer and Data Scientist position. 
