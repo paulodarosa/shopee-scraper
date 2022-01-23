@@ -6,7 +6,9 @@ The project was created in python 3 and requires only 3 libraries that may need 
 They are: requests, date and time. Date and Time are default libraries for Linux and Mac users, but if you're running Windows, make sure to install them using pip.
 
 You can easily install requests using the following command:
+```
 $ pip install requests
+```
 
 The script runs based on Shopee's public API. Shopee generates a dynamic page that shows products and its information calling a json file. Since it's an API and it's public, it's easier to just call the json file and extract the data instead of selecting divs, classes and scrolling through the results and using Selenium to simulate a web browser.
 
@@ -19,7 +21,9 @@ https://shopee.com.br/Camisetas-Bandas-Rock-RHCP-Red-Hot-Chili-Peppers-100-Algod
 - 3983196792 is the product's id
 
 2. Before running the code, change the file directory where you want to save the csv file generated what will contain all the data extracted.
-- file=open("/YOUR-DIRECTORY/%s-YOUR-FILE-NAME.csv" % data, "a"))
+ ```python
+file=open("/YOUR-DIRECTORY/%s-YOUR-FILE-NAME.csv" % data, "a")
+```
 - The %s- right before the file name prints the date when the csv was generated. It's recommended to keep it that way, in order to track down your files.
 
 3. Using the terminal, go to the script's folder and run:
