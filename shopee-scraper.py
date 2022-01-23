@@ -23,14 +23,14 @@ while creat_while < list_size - 1:
     creat_while += 1
 	
     #store the information displayed inside the json file. It's possible to extract even more data, you only need to add the exact json's children path you're interested in. The scrapper will sleep for 1 second and then get the next ad's information.
-    ad_id = (r.json()['data']['sections'][0]['data']['item'][cria_while]['itemid'])
-    title = (r.json()['data']['sections'][0]['data']['item'][cria_while]['name'])
-    stock = (r.json()['data']['sections'][0]['data']['item'][cria_while]['stock'])
-    sales = (r.json()['data']['sections'][0]['data']['item'][cria_while]['historical_sold'])
-    likes = (r.json()['data']['sections'][0]['data']['item'][cria_while]['liked_count'])
-    views = (r.json()['data']['sections'][0]['data']['item'][cria_while]['view_count'])
-    price = (r.json()['data']['sections'][0]['data']['item'][cria_while]['price'])
-    rating = (r.json()['data']['sections'][0]['data']['item'][cria_while]['item_rating']['rating_count'][0])
+    ad_id = (r.json()['data']['sections'][0]['data']['item'][creat_while]['itemid'])
+    title = (r.json()['data']['sections'][0]['data']['item'][creat_while]['name'])
+    stock = (r.json()['data']['sections'][0]['data']['item'][creat_while]['stock'])
+    sales = (r.json()['data']['sections'][0]['data']['item'][creat_while]['historical_sold'])
+    likes = (r.json()['data']['sections'][0]['data']['item'][creat_while]['liked_count'])
+    views = (r.json()['data']['sections'][0]['data']['item'][creat_while]['view_count'])
+    price = (r.json()['data']['sections'][0]['data']['item'][creat_while]['price'])
+    rating = (r.json()['data']['sections'][0]['data']['item'][creat_while]['item_rating']['rating_count'][0])
     time.sleep(1)
 
     #you've to set where you wanna save the csv file. If you run the code without changing the directory settings, you'll get no data.
